@@ -1,5 +1,8 @@
+
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .logo{
@@ -7,6 +10,12 @@ body{
     top: 0;
     left: 3%;
 }
+
+
+.container{
+    display: flex;
+}
+
 
 .main-section{
     margin-top: 35vh;
@@ -40,4 +49,20 @@ body{
     width: 95px;
     height: 35px;
     margin-left: 10px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+
+
+.curve-parent{
+}
+.curve{
+    margin-left: 5px;
+    position: absolute;
+    bottom: -400px;
+    background-color: rgb(2, 83, 43);
+    width: 200vw;
+    height: 200vw;
+    border-radius: 50%;
 }
