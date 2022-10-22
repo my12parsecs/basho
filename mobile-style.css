@@ -64,9 +64,9 @@ body{
 .curve-parent{
 }
 .curve{
-    margin-left: 0px;
     position: absolute;
-    top: -700px;
+    top: -600px;
+    left: -30px;
     background-color: rgb(2, 83, 43);
     width: 1px;
     height: 1px;
