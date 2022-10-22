@@ -24,14 +24,22 @@ body{
 }
 .main-liner{
     font-weight: 400;
+    margin: 0 auto;
+}
+.landscape{
+    text-decoration: underline;
+    font-style: italic;
 }
 .sub-liner{
     font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 .form{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 17px;
 }
 .input{
     height: 30px;
@@ -52,6 +60,11 @@ body{
 }
 .submit:hover{
     cursor: pointer;
+}
+.link{
+    color: black;
+    font-size: 13px;
+    margin-left: 100px;
 }
 
 
