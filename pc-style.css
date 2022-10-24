@@ -95,14 +95,14 @@ body{
 
 
 
-
-
 .sample-page{
     position: absolute;
-    bottom: 65vh;
+    top: 270vh;
     left: 7%;
     width: 40vw;
+    max-width: 800px;
     height: 70vh;
+    max-height: 600px;
     background-color: #ffffff;
     border-radius: 15px;
     border: 10px solid black;
@@ -140,8 +140,33 @@ body{
     margin-right: 1.1vw;
 }
 
+
+.sample-top-strip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38vw;
+}
+.sample-route{
+    font-size: 0.6vw;
+    color: grey;
+}
+.sample-route span{
+    text-decoration: underline;
+}
+.sample-ranking{
+    font-size: 0.6vw;
+    color: grey;
+}
+
+
+
 .sample-split{
     display: flex;
+    margin-top: 0px;
 }
 
 
@@ -149,7 +174,7 @@ body{
     color: rgb(0, 0, 0);
     font-weight: 300;
     height: 55vh;
-    margin-top: 2vw;
+    margin-top: 1vw;
     margin-left: -27px;
     padding-right: 7px;
     border-right: 1px solid;
@@ -185,7 +210,7 @@ body{
 
 .sample-main{
     color: rgb(0, 0, 0);
-    margin: 2vw auto;
+    margin: 1vw auto;
     width: 26vw;
 }
 .sample-title{
