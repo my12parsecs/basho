@@ -1,6 +1,6 @@
-function disableScroll(event) {
-    event.preventDefault();
-  }
+// function disableScroll(event) {
+//     event.preventDefault();
+//   }
   
-  // イベントと関数を紐付け
-  document.addEventListener('touchmove', disableScroll, { passive: false });
+//   // イベントと関数を紐付け
+//   document.addEventListener('touchmove', disableScroll, { passive: false });
