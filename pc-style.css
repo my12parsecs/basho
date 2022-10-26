@@ -106,7 +106,23 @@ body{
     background-color: #ffffff;
     border-radius: 15px;
     border: 10px solid black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(209, 209, 209) #fff;
 }
+.sample-page::-webkit-scrollbar {
+    width: 7px;
+  }
+  .sample-page::-webkit-scrollbar-track {
+    width: 7px;
+    /* border-radius: 100px; */
+  }
+  .sample-page::-webkit-scrollbar-thumb {
+    width: 7px;
+    border-radius: 100px;
+    background-color: #bcbcbc;
+  }
 .sample-nav{
     display: flex;
     justify-content: space-between;
@@ -222,7 +238,7 @@ body{
     width: 2.7vw;
     height: 2.7vw;
     border-radius: 50%;
-    border: 0.5px solid grey;
+    border: 0.1px solid rgb(203, 203, 203);
     margin-right: 0.6vw;
 }
 .sample-name{
@@ -262,13 +278,13 @@ body{
 .sample-thumbnail{
     width: 8.5vw;
     height: 4.5vw;
-    border-radius: 5px;
-    border: 0.5px solid;
+    border-radius: 3px;
+    border: 0.01px solid rgb(184, 184, 184);
     object-fit: cover;
     margin: 0 auto;
 }
 .thumbnail-info{
-    font-size: 0.6vw;
+    font-size: 0.5vw;
     margin: 0 auto;
     margin-top: -1px;
     color: grey;
@@ -280,23 +296,25 @@ body{
     border-top: 1px solid grey;
     width: 26vw;
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .content-container{
-    width: 12vw;
-    margin: 5px;
+    width: 11vw;
+    margin: 0.7vw;
 }
 .content-image{
-    width: 12vw;
+    width: 11vw;
     height: 7vw;
     margin: 0 auto;
     object-fit: cover;
+    border-radius: 3px;
 }
 .content-info{
     display: flex;
     justify-content: space-between;
-    margin: -1vw auto;
+    margin: -0.7vw auto;
     color: rgb(76, 76, 76);
 }
 .content-info p{
-    font-size: 0.7vw;
+    font-size: 0.5vw;
 }
