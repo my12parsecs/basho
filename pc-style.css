@@ -70,6 +70,17 @@ body{
 
 
 
+.main-copyright-container{
+    position: absolute;
+    bottom: 0;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.main-copyright{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
 
 
 
