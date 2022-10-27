@@ -3,6 +3,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* overflow-x: hidden;
     overflow-y: hidden; */
+    overflow: hidden;
 }
 
 .logo{
@@ -101,8 +102,8 @@ body{
     left: 7%;
     width: 40vw;
     max-width: 800px;
-    height: 70vh;
-    max-height: 600px;
+    height: 60vh;
+    max-height: 450px;
     background-color: #ffffff;
     border-radius: 15px;
     border: 10px solid black;
@@ -114,11 +115,11 @@ body{
 .sample-page::-webkit-scrollbar {
     width: 7px;
   }
-  .sample-page::-webkit-scrollbar-track {
+.sample-page::-webkit-scrollbar-track {
     width: 7px;
     /* border-radius: 100px; */
   }
-  .sample-page::-webkit-scrollbar-thumb {
+.sample-page::-webkit-scrollbar-thumb {
     width: 7px;
     border-radius: 100px;
     background-color: #bcbcbc;
@@ -162,9 +163,8 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 0.5vw;
-    margin-left: auto;
-    margin-right: auto;
-    width: 38vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 .sample-route{
     font-size: 0.6vw;
@@ -189,11 +189,10 @@ body{
 .sample-sidebar{
     color: rgb(0, 0, 0);
     font-weight: 300;
-    height: 55vh;
     margin-top: 1vw;
     margin-left: -27px;
     padding-right: 7px;
-    border-right: 1px solid;
+    border-right: 0.1px solid rgb(203, 203, 203);
 }
 .sample-sidebar-title{
     margin: 0px 0 0px 35px;
@@ -290,10 +289,11 @@ body{
     color: grey;
 }
 
+
 .sample-content{
     margin-top: 1vw;
     padding-top: 1vw;
-    border-top: 1px solid grey;
+    border-top: 0.1px solid rgb(203, 203, 203);
     width: 26vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -317,4 +317,9 @@ body{
 }
 .content-info p{
     font-size: 0.5vw;
+}
+.sample-copyright{
+    font-size: 0.5vw;
+    font-weight: 200;
+    text-align: center;
 }
