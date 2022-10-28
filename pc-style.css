@@ -5,6 +5,9 @@ body{
     overflow-y: hidden; */
     overflow: hidden;
 }
+.wrapper{
+    overflow-x: hidden;
+}
 
 .logo{
     position: absolute;

@@ -3,6 +3,9 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.wrapper{
+    overflow-x: hidden;
+}
 
 .logo{
     color: white;
