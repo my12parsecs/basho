@@ -248,30 +248,30 @@ body{
 .sample-main{
     color: rgb(0, 0, 0);
     margin: 1vw auto;
-    width: 26vw;
+    width: 38vw;
 }
 .sample-title{
     display: flex;
     align-items: center;
-    width: 14vw;
+    width: 20vw;
 }
 .sample-main-account{
-    width: 2.7vw;
-    height: 2.7vw;
+    width: 4vw;
+    height: 4vw;
     border-radius: 50%;
     border: 0.1px solid rgb(203, 203, 203);
     margin-right: 0.6vw;
 }
 .sample-name{
     margin: 5px 0px;
-    font-size: 1.6vw;
+    font-size: 2.3vw;
     font-weight: 600;
 }
 .sample-follow{
     margin-left: 0.9vw;
-    width: 3.5vw;
-    height: 1.5vw;
-    font-size: 0.7vw;
+    width: 5.5vw;
+    height: 2vw;
+    font-size: 1.1vw;
     text-align: center;
     color: white;
     background-color: rgb(2, 83, 43);
@@ -297,8 +297,8 @@ body{
     margin-top: -1.5vw;
 }
 .sample-thumbnail{
-    width: 8.5vw;
-    height: 4.5vw;
+    width: 15vw;
+    height: 9vw;
     border-radius: 3px;
     border: 0.01px solid rgb(184, 184, 184);
     object-fit: cover;
@@ -316,17 +316,17 @@ body{
     margin-top: 1vw;
     padding-top: 1vw;
     border-top: 0.1px solid rgb(203, 203, 203);
-    width: 26vw;
+    width: 40vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .content-container{
-    width: 11vw;
+    width: 18vw;
     margin: 0.7vw;
 }
 .content-image{
-    width: 11vw;
-    height: 7vw;
+    width: 18vw;
+    height: 10vw;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 3px;
