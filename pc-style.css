@@ -23,7 +23,7 @@ body{
 
 .main-section{
     margin-top: 35vh;
-    margin-left: 3vw;
+    margin-left: 3.5vw;
     width: 400px;
 }
 .main-liner{
@@ -73,23 +73,31 @@ body{
 
 
 .main-copyright-container{
+    display: flex;
+    align-items: center;
+
     position: absolute;
     bottom: 0;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-bottom: -17px;
+}
+.contact-form{
+    color: rgb(40, 40, 40);
+    font-size: 11px;
+    font-weight: 500;
 }
 .main-copyright{
-    margin-left: 5px;
-    margin-bottom: 5px;
-    font-size: 10px;
+    color: rgb(40, 40, 40);
+    font-size: 11px;
     font-weight: 500;
+    margin-left: 10px;
 }
 
 
 
 
 .curve-parent{
-    margin-left: 350px;
+    margin-left: 370px;
     position: absolute;
     bottom: -50vh;
     background-color: rgb(2, 83, 43);
@@ -114,10 +122,12 @@ body{
 .sample-page{
     position: absolute;
     top: 270vh;
-    left: 7%;
+    /* left: 7%; */
+    left: 15vw;
     width: 40vw;
     max-width: 800px;
-    height: 60vh;
+    /* height: 60vh; */
+    height: 60vw;
     max-height: 450px;
     background-color: #ffffff;
     border-radius: 15px;
