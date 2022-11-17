@@ -4,6 +4,7 @@ body{
     /* overflow-x: hidden;
     overflow-y: hidden; */
     overflow: hidden;
+    margin: 0;
 }
 .wrapper{
     overflow-x: hidden;
@@ -265,16 +266,23 @@ body{
     border: 0.1px solid rgb(203, 203, 203);
     margin-right: 0.6vw;
 }
+.sample-place{}
 .sample-name{
-    margin: 5px 0px;
-    font-size: 1.6vw;
+    margin: 0px 0px;
+    font-size: 1.4vw;
     font-weight: 600;
+}
+.sample-type{
+    margin: 0px auto;
+    font-size: 0.5vw;
+    font-weight: 400;
+    color: #797979;
 }
 .sample-follow{
     margin-left: 0.9vw;
-    width: 3.5vw;
-    height: 1.5vw;
-    font-size: 0.7vw;
+    width: 3.4vw;
+    height: 1.4vw;
+    font-size: 0.6vw;
     text-align: center;
     color: white;
     background-color: rgb(2, 83, 43);
@@ -287,12 +295,12 @@ body{
     margin-top: 0.5vw;
 }
 .sample-info{
-    margin: 0 auto;
-    font-size: 0.85vw;
+    margin: 0.5px auto;
+    font-size: 0.7vw;
 }
 .sample-map{
-    margin: 0 auto;
-    font-size: 0.85vw;
+    margin: 0.5px auto;
+    font-size: 0.7vw;
     text-decoration: underline;
 }
 
@@ -347,4 +355,34 @@ body{
     font-size: 0.5vw;
     font-weight: 200;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.photo-container{
+    position: absolute;
+    top: 280vh;
+    left: 12vw;
+    width: 49vw;
+    max-width: 800px;
+    height: 23vw;
+    max-height: 450px;
+    background-color: #000000;
+    display: flex;
+    margin: auto;
+}
+.landscape-photo{
+    margin: auto;
+    height: 22.3vw;
+    width: 48.3vw;
+    /* border: 10px solid black; */
+    object-fit: cover;
+    object-position: 0px -18px;
 }
