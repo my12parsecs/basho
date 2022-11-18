@@ -141,7 +141,7 @@ body{
     /* left: 7%; */
     width: 60vw;
     max-width: 800px;
-    height: 30vh;
+    height: 33vh;
     max-height: 450px;
     background-color: #ffffff;
     border-radius: 15px;
@@ -180,14 +180,23 @@ body{
     font-size: 1.4vw;
     font-weight: 700;
 }
+.sample-control{}
 .sample-search{
-    border: 0.5px solid grey;
-    border-radius: 2px;
+    vertical-align: middle;
+    border: 0.12vw solid rgb(60, 60, 60);
+    border-radius: 0.25vw;
+    margin: auto 0.3vw;
     padding-left: 4px;
     width: 8vw;
     height: 1.4vw;
     font-size: 0.8vw;
     margin-left: 40px;
+}
+.sample-icon{
+    vertical-align: middle;
+    font-size: 1.1vw;
+    color: rgb(60, 60, 60);
+    margin: auto 0.3vw;
 }
 .sample-account{
     width: 1.7vw;
@@ -280,10 +289,17 @@ body{
     border: 0.1px solid rgb(203, 203, 203);
     margin-right: 0.6vw;
 }
+.sample-place{}
 .sample-name{
-    margin: 5px 0px;
-    font-size: 2.3vw;
+    margin: 0px 0px;
+    font-size: 1.4vw;
     font-weight: 600;
+}
+.sample-type{
+    margin: 0px auto;
+    font-size: 0.5vw;
+    font-weight: 400;
+    color: #797979;
 }
 .sample-follow{
     margin-left: 0.9vw;

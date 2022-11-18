@@ -166,14 +166,23 @@ body{
     font-size: 1.4vw;
     font-weight: 700;
 }
+.sample-control{}
 .sample-search{
-    border: 0.5px solid grey;
-    border-radius: 2px;
+    vertical-align: middle;
+    border: 0.12vw solid rgb(60, 60, 60);
+    border-radius: 0.25vw;
+    margin: auto 0.3vw;
     padding-left: 4px;
     width: 8vw;
     height: 1.4vw;
     font-size: 0.8vw;
     margin-left: 40px;
+}
+.sample-icon{
+    vertical-align: middle;
+    font-size: 1.1vw;
+    color: rgb(60, 60, 60);
+    margin: auto 0.3vw;
 }
 .sample-account{
     width: 1.7vw;
