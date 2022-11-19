@@ -168,7 +168,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3.3vw;
+    vertical-align: middle;
+    height: 4vw;
     border-bottom: 1px solid white;
     box-shadow: 0px 0.5px 3px 0px #9c9c9c;
     background-color: white;
@@ -177,10 +178,11 @@ body{
 .sample-logo{
     margin-left: 1.4vw;
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.6vw;
     font-weight: 700;
 }
-.sample-control{}
+.sample-control{
+}
 .sample-search{
     vertical-align: middle;
     border: 0.12vw solid rgb(60, 60, 60);
@@ -188,22 +190,23 @@ body{
     margin: auto 0.3vw;
     padding-left: 4px;
     width: 8vw;
-    height: 1.4vw;
+    height: 1.5vw;
     font-size: 0.8vw;
     margin-left: 40px;
 }
 .sample-icon{
     vertical-align: middle;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     color: rgb(60, 60, 60);
     margin: auto 0.1vw;
 }
 .sample-account{
-    width: 1.7vw;
-    height: 1.7vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50%;
-    border: 0.5px solid grey;
-    margin-right: 1.1vw;
+    /* border: 0.5px solid grey; */
+    margin-top: 0.3vw;
+    margin-right: 1.2vw;
 }
 
 
@@ -211,7 +214,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.5vw;
+    margin-top: 0.8vw;
     margin-left: 1vw;
     margin-right: 1vw;
 }
@@ -238,17 +241,17 @@ body{
 .sample-sidebar{
     color: rgb(0, 0, 0);
     font-weight: 300;
-    margin-top: 1vw;
-    margin-left: -27px;
+    margin-top: 1.5vw;
+    margin-left: -7.5vw;
     padding-right: 7px;
     border-right: 0.1px solid rgb(203, 203, 203);
 }
 .sample-sidebar-title{
-    margin: 0px 0 0px 35px;
-    font-size: 0.8vw;
+    margin: 0px 0 0px 9vw;
+    font-size: 1.1vw;
 }
 .sample-sidebar-list{
-    margin: 5px auto 7px auto;
+    margin: 1vw auto 2vw auto;
 }
 .arrow-icon{
     width: 0.6vw;
@@ -261,30 +264,34 @@ body{
 }
 .sample-sidebar li{
     margin: 0 auto;
-    font-size: 0.8vw;
+    font-size: 1vw;
 }
 .list-list{
     margin: 0px auto 5px auto;
 }
 .sample-sidebar p{
-    margin: 1px 0 1px 7px;
-    font-size: 0.7vw;
+    margin: 1px 0 1px 1vw;
+    font-size: 0.8vw;
 }
+
+
 
 
 .sample-main{
     color: rgb(0, 0, 0);
     margin: 1vw auto;
-    width: 38vw;
+    width: 44vw;
 }
 .sample-title{
     display: flex;
     align-items: center;
     width: 20vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
 }
 .sample-main-account{
-    width: 4vw;
-    height: 4vw;
+    width: 4.5vw;
+    height: 4.5vw;
     border-radius: 50%;
     border: 0.1px solid rgb(203, 203, 203);
     margin-right: 0.6vw;
@@ -292,20 +299,20 @@ body{
 .sample-place{}
 .sample-name{
     margin: 0px 0px;
-    font-size: 1.4vw;
-    font-weight: 600;
+    font-size: 1.7vw;
+    font-weight: 700;
 }
 .sample-type{
     margin: 0px auto;
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     font-weight: 400;
     color: #797979;
 }
 .sample-follow{
     margin-left: 0.9vw;
-    width: 5.5vw;
+    width: 5vw;
     height: 2vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     text-align: center;
     color: white;
     background-color: rgb(2, 83, 43);
@@ -315,11 +322,12 @@ body{
 .sample-detail{
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5vw;
+    margin: 0.5vw auto;
+    width: 40vw;
 }
 .sample-info{
-    margin: 0 auto;
-    font-size: 0.85vw;
+    margin: 0.1vw auto;
+    font-size: 1vw;
 }
 .sample-map{
     margin: 0 auto;
@@ -339,9 +347,9 @@ body{
     margin: 0 auto;
 }
 .thumbnail-info{
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     margin: 0 auto;
-    margin-top: -1px;
+    margin-top: -0.5vw;
     color: grey;
 }
 
@@ -350,30 +358,32 @@ body{
     margin-top: 1vw;
     padding-top: 1vw;
     border-top: 0.1px solid rgb(203, 203, 203);
-    width: 40vw;
+    width: 44vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .content-container{
-    width: 18vw;
-    margin: 0.7vw;
+    width: 20vw;
+    margin: 1.5vw auto;
 }
 .content-image{
-    width: 18vw;
-    height: 10vw;
+    width: 20vw;
+    height: 12vw;
     margin: 0 auto;
     object-fit: cover;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 .content-info{
     display: flex;
     justify-content: space-between;
-    margin: -0.7vw auto;
+    width: 19.5vw;
+    margin: -1.4vw auto;
     color: rgb(76, 76, 76);
 }
 .content-info p{
-    font-size: 0.5vw;
+    font-size: 0.7vw;
 }
+
 .sample-copyright{
     font-size: 0.5vw;
     font-weight: 200;
