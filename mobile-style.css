@@ -400,7 +400,7 @@ body{
 
 
 
-.photo-container{
+.photo-container-1{
     width: 100%;
     height: 49vw;
     background-color: black;
@@ -411,5 +411,20 @@ body{
     margin: auto;
     height: 45vw;
     width: 80vw;
+    object-fit: cover;
+}
+.photo-container-2{
+    position: absolute;
+    top: 30px;
+    left: 30;
+    height: 49vw;
+    background-color: black;
+    display: flex;
+    margin: 0px auto;
+}
+.square-photo{
+    margin: auto;
+    height: 45vw;
+    width: 45vw;
     object-fit: cover;
 }
